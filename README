@@ -1,6 +1,8 @@
 README
 Remmy Chen 4/22/2019
 
+This project uses TfidfVectorizer, multinomial Naive Bayes classifier, and GridSearchCV on amino acid sequences to make enzyme vs non-enzyme classifications.
+
 TO SET UP:
         $conda create -n [new_env] --file req.txt
 
