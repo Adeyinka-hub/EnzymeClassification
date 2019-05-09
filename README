@@ -1,0 +1,24 @@
+README
+Remmy Chen 4/22/2019
+
+TO SET UP:
+        $conda create -n [new_env] --file req.txt
+
+TO RUN:
+        $source activate [new_env]
+        $python3 retrieve_data.py 
+
+        After retrieve_data.py has finished running, open two terminals. 
+
+        In one terminal:
+        $source activate [new_env]
+        $ipython
+
+        In another terminal:
+        $source activate [new_env]
+        $jupyter notebook
+
+        In the pop up window in a browser, click on CSBProject.ipynb, then click on "Run" to run and generate the report.
+
+        There is also a toy program that may be run in analyze_data.py:
+        $python3 analyze_data.py
